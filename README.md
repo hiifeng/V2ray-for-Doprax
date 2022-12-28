@@ -15,12 +15,14 @@ Telegram: https://t.me/HiaiFeng <br>
 # 使用方法：
 <p>1、服务器端配置</p>
 <p>请使用<a href="https://www.v2fly.org/awesome/tools.html">第三方工具</a>生成一个新的 UUID 。依次点击左侧菜单中的 Main ,窗口右侧的 Edit source code ，选择 Dockerfile 文件，编辑 UUID 及伪装地址信息保存后重启服务。</p>
-# 用新生成的 UUID 替换 de04add9-5c68-8bab-950c-08cd5320df18
+<pre class="notranslate"><code># 用新生成的 UUID 替换 de04add9-5c68-8bab-950c-08cd5320df18
 ENV UUID de04add9-5c68-8bab-950c-08cd5320df18
-# VMESS_WSPATH / VLESS_WSPATH 两个常量分别定义了Vmess/VLess的伪装路径，
+# VMESS_WSPATH / VLESS_WSPATH 两个常量分别定义了 Vmess/VLess 的伪装路径，
 # 请分别修改内容中的vmess或vless。注意：伪装路径前无需加  /
 ENV VMESS_WSPATH vmess
 ENV VLESS_WSPATH vless
+</code></pre>
+
 <p>2、客户端配置</p>
 <p>点击顶部的"Run"按钮后，左侧Files菜单中，程序自动创建url.txt文件，该文件包含VMess和VLess协议的链接地址，在客户端软件中导入即可。</p>
 <p>同时，程序自动创建了VLess.png和VMess.png文件，分别是VLess和VMess协议的二维码，使用手机扫描即可添加节点。</p>
