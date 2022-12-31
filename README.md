@@ -7,7 +7,7 @@ Telegram: https://t.me/HiaiFeng <br>
 本项目用于在 Doprax.com 免费服务上部署 V2ray ，采用的方案为 Nginx + WebSocket + VMess/VLess + TLS。速度与 Replit 相比较慢，但是官方宣传不限流量，服务启动后永不停机。
 # 注意事项：
 <p><b><li>请勿滥用，账号封禁风险自负。</li></b></p>
-<p><b><li>部署完成，如发现不能上网，请检查域名是否被墙，可使用 Cloudflare CDN 解决。</li></b></p>
+<p><b><li>部署完成如发现不能上网，请检查域名是否被墙，可使用 Cloudflare CDN 解决。</li></b></p>
 
 # 部署：
 <p>1、登录自己的 GitHub 账号后 Fork 该项目。</p>
