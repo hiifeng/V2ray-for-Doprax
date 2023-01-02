@@ -17,7 +17,7 @@
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "/VMESS_WSPATH"
+					"path": "VMESS_WSPATH"
 				}
 			}
 		},
@@ -34,7 +34,7 @@
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "/VLESS_WSPATH"
+					"path": "VLESS_WSPATH"
 				}
 			}
 		}
