@@ -21,16 +21,16 @@ Telegram: https://t.me/HiaiFeng <br>
 <pre class="notranslate"><code># 用新生成的 UUID 替换 de04add9-5c68-8bab-950c-08cd5320df18
 ENV UUID de04add9-5c68-8bab-950c-08cd5320df18
 # VMESS_WSPATH / VLESS_WSPATH 两个常量分别定义了 Vmess/VLess 的伪装路径，
-# 请分别修改内容中的vmess或vless。注意：伪装路径前无需加  /
-ENV VMESS_WSPATH vmess
-ENV VLESS_WSPATH vless
+# 请分别修改内容中的vmess或vless。注意：伪装路径以 / 符号开始,为避免不必要的麻烦，请不要使用特殊符号.
+ENV VMESS_WSPATH /vmess
+ENV VLESS_WSPATH /vless
 </code></pre>
 
 <p>2、客户端配置</p>
 <p>节点客户端配置需要手动进行，下面以 V2rayN 为例。
-<p>下图为 VMess 配置示意图，请修改标示内容，其他设置于图片中显示一致。(注意：此处请在伪装路径前加 / )</p>
+<p>下图为 VMess 配置示意图，请修改标示内容，其他设置于图片中显示一致。</p>
 <img src="https://www.hicairo.com/zb_users/upload/2022/12/202212291672276258394161.webp">
-<p>下图为 VMess 配置示意图，请修改标示内容，其他设置于图片中显示一致。(注意：此处请在伪装路径前加 / )</p>
+<p>下图为 VMess 配置示意图，请修改标示内容，其他设置于图片中显示一致。</p>
 <img src="https://www.hicairo.com/zb_users/upload/2022/12/202212291672276274474231.webp">
 
 # 反馈与交流：
