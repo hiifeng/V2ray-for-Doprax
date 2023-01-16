@@ -19,7 +19,7 @@ COPY entrypoint.sh /usr/local/v2ray/
 
 # 感谢 fscarmen 大佬提供 Dockerfile 层优化方案
 RUN wget -q -O /tmp/v2ray-linux-64.zip https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-64.zip && \
-    unzip -d /usr/local/v2ray /tmp/v2ray-linux-64.zip v2ray  && \
+    unzip -d /usr/local/v2ray /tmp/v2ray-linux-64.zip v2ray v2ctl && \
     wget -q -O /usr/local/v2ray/geosite.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat && \
     wget -q -O /usr/local/v2ray/geoip.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat && \
     chmod a+x /usr/local/v2ray/entrypoint.sh
