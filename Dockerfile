@@ -1,6 +1,6 @@
 FROM nginx:mainline-alpine-slim
 MAINTAINER ifeng <https://t.me/HiaiFeng>
-EXPOSE 80 2053 2083 2087 2096 8443
+EXPOSE 80
 USER root
 
 RUN apk update && apk add --no-cache supervisor wget unzip curl
