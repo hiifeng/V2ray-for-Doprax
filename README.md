@@ -1,6 +1,6 @@
-I am honored that DARTNODE is offering a free server to sponsor my project.DARTNODE's official<br>
-website:https://dartnode.com
-![Image text](https://raw.githubusercontent.com/hiifeng/V2ray-for-Doprax/main/logo.png)
+I am honored that DARTNODE is offering a free server to sponsor my project.<br>
+DARTNODE's official Web Site : https://dartnode.com<br>
+![Image text](https://status.dartnode.com/upload/logo1.png)
 
 # V2ray for Doprax
 Create By ifeng<br>
