@@ -1,3 +1,11 @@
+# 抢注属于自己的 HiDNS 域名
+https://www.hidoha.net
+
+优惠劵：Hello2025
+优惠劵：Great2025
+
+使用以上优惠劵可以分别抢注hidns.co及hidns.vip为后缀的域名。
+
 # V2ray for Doprax
 Create By ifeng<br>
 Web Site: https://www.hicairo.com <br>
