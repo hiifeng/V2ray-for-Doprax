@@ -3,9 +3,6 @@ Create By ifeng<br>
 Web Site: https://www.hicairo.com <br>
 Telegram: https://t.me/HiaiFeng <br>
 
-# HiDNS 免费域名：
-[HiDNS](https://www.hidoha.net) 近日推出永久免费计划，敬请关注。[HiDNS Lifetime Free Plan](https://www.hidoha.net/news/important-update-on-hidns-free-domain-service)
-
 # 简介：
 本项目用于在 Doprax.com 免费服务上部署 V2ray ，采用的方案为 Nginx + WebSocket + VMess/VLess + TLS。速度与 Replit 相比较慢，但是官方宣传不限流量，服务启动后永不停机。
 
